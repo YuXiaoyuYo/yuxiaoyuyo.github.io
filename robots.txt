@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /search/
-
-Sitemap: https://yu.nm.cn/sitemap.xml
