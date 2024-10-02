@@ -98,3 +98,7 @@ main .gsc-loading-image {
 .gsc-comment:not(.gsc-reply-box) .gsc-replies {
     border-radius: unset
 }
+
+code {
+    font-family: "JetBrains Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+}
