@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/favicon.ico",
-      "destination": "/favicon.webp"
+      "destination": "favicon.webp"
     }
   ],
   "headers": [
