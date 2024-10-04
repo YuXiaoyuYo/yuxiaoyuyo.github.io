@@ -1,0 +1,23 @@
+{
+  "rewrites": [
+    {
+      "source": "/twikoo(.*)",
+      "destination": "api/index"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=86400"
+        },
+        {
+          "key": "Vercel-CDN-Cache-Control",
+          "value": "max-age=86400"
+        }
+      ]
+    }
+  ]
+}
