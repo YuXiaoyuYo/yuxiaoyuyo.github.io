@@ -2,7 +2,13 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "method": "POST",
+      "has": [
+        {
+          "type": "header",
+          "key": "method",
+          "value": "POST"
+        }
+      ],
       "destination": "api/index"
     }
   ],
