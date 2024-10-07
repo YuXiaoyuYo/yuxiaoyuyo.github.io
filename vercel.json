@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    {
+      "source": "/twikoo(.*)",
+      "destination": "api/index"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
