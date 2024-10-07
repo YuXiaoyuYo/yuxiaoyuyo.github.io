@@ -5,7 +5,7 @@
       "has": [
         {
           "type": "header",
-          "key": "method",
+          "key": ":method:",
           "value": "POST"
         }
       ],
