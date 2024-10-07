@@ -1,7 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/twikoo(.*)",
+      "source": "/(.*)",
+      "method": "POST",
       "destination": "api/index"
     }
   ],
