@@ -5,8 +5,8 @@
       "has": [
         {
           "type": "header",
-          "key": ":method:",
-          "value": "POST"
+          "key": "content-type",
+          "value": "application/json"
         }
       ],
       "destination": "api/index"
