@@ -1,17 +1,4 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "application/json"
-        }
-      ],
-      "destination": "api/index"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
