@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /search/
+Disallow: /api/
 Disallow: /index.xml$
 
 Sitemap: https://yu.nm.cn/sitemap.xml
