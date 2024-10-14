@@ -1,5 +1,5 @@
 async function updateViewCount(page, elementId) {
-    const response = await fetch(`https://viewcounter.yuxiaoyuyo.workers.dev/api/count?page=${page}`, {
+    const response = await fetch(`https://yu.nm.cn/api/count?page=${page}`, {
         method: 'POST'
     })
     const count = await response.text();
