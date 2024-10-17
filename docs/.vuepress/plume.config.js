@@ -1,6 +1,6 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import { navbar } from './navbar'
-import { notes } from './notes'
+// import { notes } from './notes'
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -17,7 +17,7 @@ export default defineThemeConfig({
     avatar: 'https://070715.xyz/images/avatar.webp',
     name: '于晓鱼的Blog',
     description: '',
-    // circle: true,
+    circle: true,
     // location: '',
     // organization: '',
   },
