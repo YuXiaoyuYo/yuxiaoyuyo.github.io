@@ -40,7 +40,7 @@ jobs:
       - name: Build VuePress site
         run: pnpm docs:build
 
-            - name: Deploy to Github Pages
+      - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
@@ -49,7 +49,7 @@ jobs:
           EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyuyo.github.io
           CNAME: yu.nm.cn
       
-      - name: Deploy to Github Pages
+      - name: Deploy to Vercel
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
