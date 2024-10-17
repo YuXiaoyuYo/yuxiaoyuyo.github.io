@@ -10,10 +10,10 @@
     "node": "^18.20.0 || >=20.0.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "docs:build": "vuepress build docs --clean-cache --clean-temp",
-    "docs:preview": "http-server docs/.vuepress/dist",
+    "blog:dev": "vuepress dev blog",
+    "blog:dev-clean": "vuepress dev blog --clean-cache --clean-temp",
+    "blog:build": "vuepress build blog --clean-cache --clean-temp",
+    "blog:preview": "http-server blog/.vuepress/dist",
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
