@@ -43,7 +43,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           PERSONAL_TOKEN: ${{ secrets.ACTION_TOKEN }}
-          publish_dir: ./docs/.vuepress/dist
+          publish_dir: ./blog/.vuepress/dist
           EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyuyo.github.io
           CNAME: yu.nm.cn
       
@@ -52,7 +52,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           PERSONAL_TOKEN: ${{ secrets.ACTION_TOKEN }}
-          publish_dir: ./docs/.vuepress/dist
+          publish_dir: ./blog/.vuepress/dist
           publish_branch: main
           EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyu-blog-vercel
           destination_dir: public
