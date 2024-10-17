@@ -11,8 +11,8 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  部署:
-    runs-on: ubuntu-latest
+  Deploy:
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v4
