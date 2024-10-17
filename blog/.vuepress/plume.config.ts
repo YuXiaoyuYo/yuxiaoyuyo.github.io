@@ -24,10 +24,15 @@ export default defineThemeConfig({
 
   navbar,
   //  notes,
-  social: [
+  /*social: [
     { icon: 'github', link: '/' },
-  ],
+  ],*/
 
-  blog: { link: '/' },
+  blog: {
+    link: '/',
+    tagsLink: '/tags/',
+    archivesLink: '/archives/',
+    categoriesLink: '/categories/',
+  },
 
 })
