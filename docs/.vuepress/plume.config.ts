@@ -6,7 +6,7 @@ import { navbar } from './navbar'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  // logo: 'https://070715.xyz/images/favicon.webp',
   // your git repo url
   docsRepo: '',
   docsDir: 'docs',
@@ -23,9 +23,11 @@ export default defineThemeConfig({
   },
 
   navbar,
-//  notes,
+  //  notes,
   social: [
-    { icon: 'github', link: 'https://github.com/YuXiaoyuYo/' },
+    { icon: 'github', link: '/' },
   ],
+
+  blog: { link: '/' },
 
 })
