@@ -24,9 +24,10 @@ export default defineThemeConfig({
 
   navbar,
   //  notes,
-  /*social: [
-    { icon: 'github', link: '/' },
-  ],*/
+  social: [
+    { icon: 'github', link: 'https://github.com/YuXiaoyuYo/' },
+    { icon: 'bilibili', link: 'https://space.bilibili.com/353077925' },
+  ],
 
   blog: {
     link: '/',

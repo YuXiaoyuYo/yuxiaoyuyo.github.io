@@ -9,8 +9,7 @@ config:
       dark: 0.3
     hero:
       name: 于晓鱼
-      tagline: A Student.
-      text: 爱是人类最小的共产主义。
+      tagline: 爱是人类最小的共产主义。
       actions:
         -
           text: 我的博客
@@ -19,6 +18,10 @@ config:
         -
           text: Github
           link: https://github.com/YuXiaoyuYo
+          theme: alt
+        -
+          text: Bilibili
+          link: https://space.bilibili.com/353077925
           theme: alt
   - type: custom
 createTime: 2024/10/17 13:26:39
