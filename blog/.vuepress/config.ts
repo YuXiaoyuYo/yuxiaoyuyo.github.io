@@ -74,6 +74,7 @@ export default defineUserConfig({
       // reactionsEnabled: true,
       // inputPosition: 'top',
       },
+      
       markdownMath: false,
     },
   }),
