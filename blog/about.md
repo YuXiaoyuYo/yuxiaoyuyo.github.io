@@ -3,7 +3,7 @@ title: 关于
 pageLayout: home
 config:
   - type: banner
-    banner: https://yu.nm.cn/img-original/img/2024/10/21/15/17/47/123542318_p0.png
+    banner: https://070715.xyz/images/123542318_p0.webp
     bannerMask:
       light: 0.1
       dark: 0.3
