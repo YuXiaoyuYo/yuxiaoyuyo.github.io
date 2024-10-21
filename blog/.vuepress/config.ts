@@ -20,8 +20,8 @@ export default defineUserConfig({
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
       shiki: {
-           // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-         languages: ['shell', 'bash', 'typescript', 'javascript', 'html'],
+        // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+        languages: ['shell', 'bash', 'typescript', 'javascript', 'html'],
       },
 
       /**
@@ -30,11 +30,11 @@ export default defineUserConfig({
        */
       markdownEnhance: {
         demo: true,
-      //   include: true,
-      //   chart: true,
-      //   echarts: true,
-      //   mermaid: true,
-      //   flowchart: true,
+        //   include: true,
+        //   chart: true,
+        //   echarts: true,
+        //   mermaid: true,
+        //   flowchart: true,
       },
 
       /**
@@ -73,12 +73,21 @@ export default defineUserConfig({
        * @see https://theme-plume.vuejs.press/guide/features/comments/
        */
       comment: {
-      provider: 'Twikoo',
-      comment: true,
-      envId: 'https://yu.nm.cn/api/twikoo',
+        provider: 'Twikoo',
+        comment: true,
+        envId: 'https://yu.nm.cn/api/twikoo',
       },
-      
+
       markdownMath: false,
+
+      search: {
+        locales: {
+          '/': {
+            placeholder: '搜索',
+          },
+        },
+        isSearchable: (page) => page.path !== '/article/2hp1xz2c/',
+      },
     },
   }),
 })
