@@ -59,20 +59,23 @@ export default defineUserConfig({
       //   },
       // },
 
+      markdownImage: {
+        // 启用 figure
+        figure: true,
+        // 启用图片懒加载
+        lazyload: true,
+        // 启用图片大小
+        size: true,
+      },
+
       /**
        * 评论 comments
        * @see https://theme-plume.vuejs.press/guide/features/comments/
        */
       comment: {
-      provider: 'Twikoo', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+      provider: 'Twikoo',
       comment: true,
       envId: 'https://yu.nm.cn/api/twikoo',
-      // repo: '',
-      // repoId: '',
-      // categoryId: '',
-      // mapping: 'pathname',
-      // reactionsEnabled: true,
-      // inputPosition: 'top',
       },
       
       markdownMath: false,
