@@ -15,19 +15,19 @@ export default defineThemeConfig({
 
   profile: {
     avatar: 'https://070715.xyz/images/avatar.webp',
-    name: '于晓鱼的Blog',
+    name: '于晓鱼',
     description: '',
     circle: true,
-    // location: '',
+    location: '青岛',
     // organization: '',
   },
 
   navbar,
   //  notes,
-  social: [
+  /*social: [
     { icon: 'github', link: 'https://github.com/YuXiaoyuYo/' },
     { icon: 'bilibili', link: 'https://space.bilibili.com/353077925' },
-  ],
+  ],*/
 
   blog: {
     link: '/',
@@ -40,7 +40,7 @@ export default defineThemeConfig({
 
   footer: {
     message: 'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">Plume</a>',
-    copyright: '© 2024 Yu Xiaoyu'
+    copyright: '<a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> Licensed<br>© 2024 Yu Xiaoyu',
   }
 
 })

@@ -6,7 +6,7 @@ export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: '于晓鱼的Blog',
-  description: '',
+  description: '爱是人类最小的共产主义。',
 
   bundler: viteBundler(),
 
