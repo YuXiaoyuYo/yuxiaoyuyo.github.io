@@ -40,7 +40,7 @@ export default defineThemeConfig({
 
   footer: {
     message: 'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">Plume</a>',
-    copyright: 'Copyright © 2021 - 2024 Yu Xiaoyu'
+    copyright: '© 2024 Yu Xiaoyu'
   }
 
 })
