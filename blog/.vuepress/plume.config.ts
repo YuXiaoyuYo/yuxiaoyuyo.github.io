@@ -6,7 +6,7 @@ import { navbar } from './navbar'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  // logo: 'https://070715.xyz/images/favicon.webp',
+  logo: 'https://070715.xyz/images/favicon.webp',
   // your git repo url
   docsRepo: '',
   docsDir: 'docs',
@@ -16,7 +16,7 @@ export default defineThemeConfig({
   profile: {
     avatar: 'https://070715.xyz/images/avatar.webp',
     name: '于晓鱼',
-    description: '<a target="_blank" href="https://github.com/YuXiaoyuYo/"><span class="vpi-social-github"></span></a>',
+    // description: '',
     circle: true,
     // location: '青岛',
     // organization: '',
@@ -24,10 +24,10 @@ export default defineThemeConfig({
 
   navbar,
   //  notes,
-  /*social: [
+  social: [
     { icon: 'github', link: 'https://github.com/YuXiaoyuYo/' },
-    { icon: 'bilibili', link: 'https://space.bilibili.com/353077925' },
-  ],*/
+    // { icon: 'bilibili', link: 'https://space.bilibili.com/353077925' },
+  ],
 
   blog: {
     link: '/',
