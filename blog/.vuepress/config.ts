@@ -11,7 +11,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   head: [['script', 
-    {},`document.getElementById("currentYear").innerText = new Date().getFullYear();`
+    {},`window.onload = function () {document.getElementById("currentYear").innerText = new Date().getFullYear()};`
   ]],
 
   theme: plumeTheme({
