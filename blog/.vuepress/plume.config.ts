@@ -16,9 +16,9 @@ export default defineThemeConfig({
   profile: {
     avatar: 'https://070715.xyz/images/avatar.webp',
     name: '于晓鱼',
-    description: '',
+    description: '<a target="_blank" href="https://github.com/YuXiaoyuYo/"><span class="vpi-social-github"></span></a>',
     circle: true,
-    location: '青岛',
+    // location: '青岛',
     // organization: '',
   },
 

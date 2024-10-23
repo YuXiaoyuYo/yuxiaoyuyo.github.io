@@ -10,9 +10,10 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
 
-  head: [['script', 
-    {},`window.onload = function () {document.getElementById("currentYear").innerText = new Date().getFullYear()};`
-  ]],
+  head: [
+    ['script', {}, `window.onload = function () {document.getElementById("currentYear").innerText = new Date().getFullYear()};`],
+    ['link', {rel: 'shortcut icon', href: 'https://070715.xyz/images/favicon.webp'}]
+  ],
 
   theme: plumeTheme({
     // 添加您的部署域名
