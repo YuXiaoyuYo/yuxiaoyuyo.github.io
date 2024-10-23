@@ -10,6 +10,10 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
 
+  head: [['script', 
+    {},`document.getElementById("currentYear").innerText = new Date().getFullYear();`
+  ]],
+
   theme: plumeTheme({
     // 添加您的部署域名
     hostname: 'https://yu.nm.cn/',
