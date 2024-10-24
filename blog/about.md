@@ -4,8 +4,9 @@ pageLayout: home
 config:
   - type: banner
     banner: https://070715.xyz/images/glow_33703665.webp
+    backgroundAttachment: local
     bannerMask:
-      light: 0.1
+      light: 0
       dark: 0.3
     hero:
       name: 于晓鱼
