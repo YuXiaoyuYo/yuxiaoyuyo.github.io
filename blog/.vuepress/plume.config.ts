@@ -45,9 +45,9 @@ export default defineThemeConfig({
 
   notFound: {
     code: '4️⃣0️⃣4️⃣',
-    title:'🕵️‍♂️❌🌐',
+    title:'🕵️‍♂️❌🔗😰',
     quote: '🔗❓➡️🗑️🤔',
-    linkText: '🏠',
+    linkText: '🏠👈🤓',
   }
 
 })
