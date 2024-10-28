@@ -34,6 +34,10 @@ export default defineThemeConfig({
     tagsLink: '/tags/',
     archivesLink: '/archives/',
     categoriesLink: '/categories/',
+    postCover: {
+      layout: 'top',
+      ratio: '3:1',
+    },
   },
   
   contributors: false,
