@@ -48,10 +48,10 @@ export default defineThemeConfig({
   },
 
   notFound: {
-    code: '4️⃣0️⃣4️⃣',
-    title:'🕵️‍♂️❌🔗😰',
-    quote: '🔗❓➡️🗑️🤔',
-    linkText: '🏠👈🤓',
+    code: '404 Not Found...',
+    title:'服务器找不到请求的资源',
+    quote: '🤔',
+    linkText: '回到首页',
   }
 
 })
