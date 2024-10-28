@@ -91,7 +91,6 @@ export default defineUserConfig({
             placeholder: '搜索',
           },
         },
-        isSearchable: (page) => page.path !== '/article/2hp1xz2c/',
       },
     },
   }),
