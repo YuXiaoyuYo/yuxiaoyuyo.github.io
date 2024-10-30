@@ -44,7 +44,7 @@ export default defineThemeConfig({
 
   footer: {
     message: 'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">Plume</a>',
-    copyright: 'Articles are licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><br>© <span id="currentYear">2021 - Prsent</span> Yu Xiaoyu',
+    copyright: `Articles are licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><br>© ${new Date().getFullYear()} Yu Xiaoyu`,
   },
 
   notFound: {
