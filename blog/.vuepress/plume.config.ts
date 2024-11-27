@@ -8,10 +8,12 @@ import { navbar } from './navbar'
 export default defineThemeConfig({
   // logo: 'https://070715.xyz/images/favicon.webp',
   // your git repo url
-  docsRepo: '',
-  docsDir: 'docs',
+  // docsRepo: '',
+  // docsDir: 'docs',
 
   appearance: true,
+
+  contributorsText: '作者',
 
   profile: {
     avatar: 'https://070715.xyz/images/avatar.webp',
@@ -40,10 +42,11 @@ export default defineThemeConfig({
     },
   },
   
-  contributors: false,
+  // contributors: false,
 
   footer: {
-    message: 'Articles are licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
+    message: '',
+    // message: 'Articles are licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
     copyright: `© ${new Date().getFullYear()} Yu Xiaoyu`,
   },
 

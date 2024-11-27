@@ -18,7 +18,19 @@ export default defineUserConfig({
     // 添加您的部署域名
     hostname: 'https://yu.nm.cn/',
 
+    copyright: 'CC-BY-NC-SA-4.0',
+
+    // changelog: true,
+
+    contributors: {
+      mode: 'block',
+      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: 'https://070715.xyz/images/favicon.webp',}],
+    },
+
     plugins: {
+
+      git: true,
+
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
