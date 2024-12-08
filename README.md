@@ -1,4 +1,6 @@
 # 于晓鱼的blog
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FYuXiaoyuYo%2Fyuxiaoyu-blog.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FYuXiaoyuYo%2Fyuxiaoyu-blog?ref=badge_shield)
+
 
 网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成。
 
@@ -25,3 +27,7 @@ pnpm vp-update
 
 - [vuepress](https://vuepress.vuejs.org/)
 - [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FYuXiaoyuYo%2Fyuxiaoyu-blog.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FYuXiaoyuYo%2Fyuxiaoyu-blog?ref=badge_large)
