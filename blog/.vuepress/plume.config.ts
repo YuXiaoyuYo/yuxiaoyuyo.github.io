@@ -16,7 +16,7 @@ export default defineThemeConfig({
   contributorsText: '作者',
 
   profile: {
-    avatar: 'https://070715.xyz/images/avatar.webp',
+    avatar: 'https://yu.nm.cn/images/avatar.webp',
     name: '于晓鱼',
     // description: '',
     circle: true,
