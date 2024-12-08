@@ -11,15 +11,26 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   head: [
-    ['script', {}, `window.onload = function () {document.getElementById("currentYear").innerText = new Date().getFullYear()};`],
-    ['link', {rel: 'shortcut icon', href: 'https://070715.xyz/images/favicon.webp'}]
+    ['link', {rel: 'shortcut icon', href: 'https://yu.nm.cn/images/favicon.webp'}]
   ],
 
   theme: plumeTheme({
     // 添加您的部署域名
     hostname: 'https://yu.nm.cn/',
 
+    copyright: 'CC-BY-NC-SA-4.0',
+
+    // changelog: true,
+
+    contributors: {
+      mode: 'block',
+      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: 'https://yu.nm.cn/images/favicon.webp',}],
+    },
+
     plugins: {
+
+      git: true,
+
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/

@@ -8,13 +8,15 @@ import { navbar } from './navbar'
 export default defineThemeConfig({
   // logo: 'https://070715.xyz/images/favicon.webp',
   // your git repo url
-  docsRepo: '',
-  docsDir: 'docs',
+  // docsRepo: '',
+  // docsDir: 'docs',
 
   appearance: true,
 
+  contributorsText: '作者',
+
   profile: {
-    avatar: 'https://070715.xyz/images/avatar.webp',
+    avatar: 'https://yu.nm.cn/images/avatar.webp',
     name: '于晓鱼',
     // description: '',
     circle: true,
@@ -34,20 +36,25 @@ export default defineThemeConfig({
     tagsLink: '/tags/',
     archivesLink: '/archives/',
     categoriesLink: '/categories/',
+    postCover: {
+      layout: 'top',
+      ratio: '3:1',
+    },
   },
   
-  contributors: false,
+  // contributors: false,
 
   footer: {
-    message: 'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">Plume</a>',
-    copyright: 'Articles are licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><br>© <span id="currentYear">2021 - Prsent</span> Yu Xiaoyu',
+    message: '',
+    // message: 'Articles are licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
+    copyright: `© ${new Date().getFullYear()} Yu Xiaoyu`,
   },
 
   notFound: {
-    code: '4️⃣0️⃣4️⃣',
-    title:'🕵️‍♂️❌🔗😰',
-    quote: '🔗❓➡️🗑️🤔',
-    linkText: '🏠👈🤓',
+    code: '404 Not Found...',
+    title:'服务器找不到请求的资源',
+    quote: '🤔',
+    linkText: '回到首页',
   }
 
 })
