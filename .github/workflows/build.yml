@@ -54,7 +54,7 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.ACTION_TOKEN }}
           publish_dir: ./blog/.vuepress/dist
           EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyuyo.github.io
-          CNAME: yu.nm.cn
+          CNAME: yuxiaoyu.me
       
       - name: Deploy to Vercel
         uses: peaceiris/actions-gh-pages@v4
