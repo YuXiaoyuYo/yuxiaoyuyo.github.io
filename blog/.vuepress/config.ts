@@ -11,20 +11,20 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   head: [
-    ['link', {rel: 'shortcut icon', href: 'https://yu.nm.cn/images/favicon.webp'}]
+    ['link', {rel: 'shortcut icon', href: 'https://yuxiaoyu.me/images/favicon.webp'}]
   ],
 
   theme: plumeTheme({
     // 添加您的部署域名
-    hostname: 'https://yu.nm.cn/',
+    hostname: 'https://yuxiaoyu.me/',
 
     copyright: 'CC-BY-NC-SA-4.0',
 
-    // changelog: true,
+    changelog: true,
 
     contributors: {
       mode: 'block',
-      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: 'https://yu.nm.cn/images/favicon.webp',}],
+      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: 'https://yuxiaoyu.me/images/favicon.webp',}],
     },
 
     plugins: {
@@ -91,7 +91,7 @@ export default defineUserConfig({
       comment: {
         provider: 'Twikoo',
         comment: true,
-        envId: 'https://yu.nm.cn/api/twikoo',
+        envId: 'https://yuxiaoyu.me/api/twikoo',
       },
 
       markdownMath: false,
