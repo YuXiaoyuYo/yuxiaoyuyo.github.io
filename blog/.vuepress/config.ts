@@ -22,6 +22,17 @@ export default defineUserConfig({
 
     changelog: true,
 
+    blog: {
+      link: '/',
+      tagsLink: '/tags/',
+      archivesLink: '/archives/',
+      categoriesLink: '/categories/',
+      postCover: {
+        layout: 'top',
+        ratio: '3:1',
+      },
+    },
+
     contributors: {
       mode: 'block',
       info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: 'https://yuxiaoyu.me/images/favicon.webp',}],
