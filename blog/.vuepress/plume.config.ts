@@ -31,6 +31,8 @@ export default defineThemeConfig({
     // { icon: 'bilibili', link: 'https://space.bilibili.com/353077925' },
   ],
 
+  navbarSocialInclude: ['github'],
+
   blog: {
     link: '/',
     tagsLink: '/tags/',
