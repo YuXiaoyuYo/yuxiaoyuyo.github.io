@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "pnpm@10.8.0",
   "author": "于晓鱼",
   "license": "MIT",
   "engines": {
@@ -17,15 +17,15 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
     "http-server": "^14.1.1",
-    "sass-embedded": "^1.85.0",
-    "typescript": "^5.7.3",
+    "sass-embedded": "^1.86.3",
+    "typescript": "^5.8.3",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.19",
-    "vuepress-theme-plume": "1.0.0-rc.131"
+    "vuepress": "2.0.0-rc.20",
+    "vuepress-theme-plume": "1.0.0-rc.140"
   },
   "dependencies": {
-    "twikoo": "^1.6.41"
+    "twikoo": "^1.6.42"
   }
 }
