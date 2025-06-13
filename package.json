@@ -17,15 +17,15 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.21",
+    "@vuepress/bundler-vite": "2.0.0-rc.23",
     "http-server": "^14.1.1",
-    "sass-embedded": "^1.86.3",
+    "sass-embedded": "^1.89.2",
     "typescript": "^5.8.3",
-    "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.21",
-    "vuepress-theme-plume": "1.0.0-rc.143"
+    "vue": "^3.5.16",
+    "vuepress": "2.0.0-rc.23",
+    "vuepress-theme-plume": "1.0.0-rc.153"
   },
   "dependencies": {
-    "twikoo": "^1.6.42"
+    "twikoo": "^1.6.44"
   }
 }

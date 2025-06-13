@@ -38,5 +38,6 @@ draft: true
 
 <CardGrid>
   <RepoCard repo="YuXiaoyuYo/yuxiaoyu-blog" />
-  <RepoCard repo="YuXiaoyuYo/yuxiaoyuyo.github.io" />
+  <!--RepoCard repo="YuXiaoyuYo/yuxiaoyuyo.github.io" /-->
+  <RepoCard repo="YuXiaoyuYo/RemoteDaoGuanHelper" /> 
 </CardGrid>
