@@ -11,12 +11,12 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   head: [
-    ['link', {rel: 'shortcut icon', href: 'https://yuxiaoyu.me/images/favicon.webp'}]
+    ['link', {rel: 'shortcut icon', href: 'https://static.yu.nm.cn/images/favicon.webp'}]
   ],
 
   theme: plumeTheme({
     // 添加您的部署域名
-    hostname: 'https://yuxiaoyu.me/',
+    hostname: 'https://yu.nm.cn/',
 
     copyright: 'CC-BY-NC-SA-4.0',
 
