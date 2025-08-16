@@ -3,7 +3,7 @@ title: 关于
 pageLayout: home
 config:
   - type: banner
-    banner: https://static.yu.nm.cn/images/glow_33703665.webp
+    banner: /images/glow_33703665.webp
     backgroundAttachment: local
     bannerMask:
       light: 0

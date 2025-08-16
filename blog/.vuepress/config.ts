@@ -11,7 +11,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   head: [
-    ['link', {rel: 'shortcut icon', href: 'https://static.yu.nm.cn/images/favicon.webp'}]
+    ['link', {rel: 'shortcut icon', href: '/images/favicon.webp'}]
   ],
 
   theme: plumeTheme({
@@ -35,7 +35,7 @@ export default defineUserConfig({
 
     contributors: {
       mode: 'block',
-      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: 'https://yuxiaoyu.me/images/favicon.webp',}],
+      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: '/images/favicon.webp',}],
     },
 
     plugins: {
@@ -55,14 +55,14 @@ export default defineUserConfig({
        * markdown enhance
        * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
        */
-      markdownEnhance: {
-        demo: true,
+      //markdownEnhance: {
+      //  demo: true,
         //   include: true,
         //   chart: true,
         //   echarts: true,
         //   mermaid: true,
         //   flowchart: true,
-      },
+      //},
 
       /**
        *  markdown power
@@ -102,7 +102,7 @@ export default defineUserConfig({
       comment: {
         provider: 'Twikoo',
         comment: true,
-        envId: 'https://yuxiaoyu.me/api/twikoo',
+        envId: '/api/twikoo',
       },
 
       markdownMath: false,
