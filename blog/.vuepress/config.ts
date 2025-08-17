@@ -1,6 +1,9 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics' 
+import { baiduAnalyticsPlugin } from '@vuepress/plugin-baidu-analytics'
+
 
 export default defineUserConfig({
   base: '/',
@@ -12,6 +15,16 @@ export default defineUserConfig({
 
   head: [
     ['link', {rel: 'shortcut icon', href: 'https://yu.nm.cn/images/favicon.webp'}]
+  ],
+
+  plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-93L8M1LEPS',
+    }),
+
+    baiduAnalyticsPlugin({
+      id: '6d905db3952e1c80ae931580cff833e7',
+    }),
   ],
 
   theme: plumeTheme({

@@ -15,6 +15,12 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.24
         version: 2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2)
+      '@vuepress/plugin-baidu-analytics':
+        specifier: 2.0.0-rc.112
+        version: 2.0.0-rc.112(typescript@5.9.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2)))
+      '@vuepress/plugin-google-analytics':
+        specifier: 2.0.0-rc.112
+        version: 2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2)))
       http-server:
         specifier: ^14.1.1
         version: 14.1.1
@@ -948,6 +954,11 @@ packages:
   '@vuepress/markdown@2.0.0-rc.24':
     resolution: {integrity: sha512-yYSo89cFbti2F/JWX3Odx9jbPje20PuVO+0SLkZX9AP5wuOv79Mx5QeRVEUS1YfD3faM98ya5LoIyuYWjPjJHw==}
 
+  '@vuepress/plugin-baidu-analytics@2.0.0-rc.112':
+    resolution: {integrity: sha512-MbVOGXpMEjK9+ftIBA9CZiyJxOh9YyoKanmZlHdQCBJARq+Fbu7ARev+oj4BZzRePSv/O1HtoRG7mWrzxAJu2w==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.24
+
   '@vuepress/plugin-cache@2.0.0-rc.112':
     resolution: {integrity: sha512-CgTxOKQk4JYIRJ9464J0p98I5Kb0LG5Sz38zaIcopf9GlE6AeOnevyz2ywWVNHxD+4+DljLacRy6dhmQOciI2Q==}
     peerDependencies:
@@ -980,6 +991,11 @@ packages:
 
   '@vuepress/plugin-git@2.0.0-rc.112':
     resolution: {integrity: sha512-OKnw1wSgJuKFE6z2aFoqg+ldjUSRuTahzW8DVC9jOy32Uss0LDo0zXiL4UCk+XAkJXfERUOc2pXYOMs5seGDmQ==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.24
+
+  '@vuepress/plugin-google-analytics@2.0.0-rc.112':
+    resolution: {integrity: sha512-G+lCRPgfxvqSROWTAZFVYZzAMMBfOsvqOhn0PcYXc3mr2Eo+vcuczXdbIHNLQkUpWcKSs+jRDc7fH+xnkJ6MBg==}
     peerDependencies:
       vuepress: 2.0.0-rc.24
 
@@ -3484,6 +3500,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@vuepress/plugin-baidu-analytics@2.0.0-rc.112(typescript@5.9.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2)))':
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.112(typescript@5.9.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2)))
+      vue: 3.5.18(typescript@5.9.2)
+      vuepress: 2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2))
+    transitivePeerDependencies:
+      - typescript
+
   '@vuepress/plugin-cache@2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2)))':
     dependencies:
       ci-info: 4.3.0
@@ -3541,6 +3565,10 @@ snapshots:
       vuepress: 2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2))
     transitivePeerDependencies:
       - typescript
+
+  '@vuepress/plugin-google-analytics@2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2)))':
+    dependencies:
+      vuepress: 2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2))
 
   '@vuepress/plugin-markdown-chart@2.0.0-rc.112(markdown-it@14.1.0)(typescript@5.9.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.18(typescript@5.9.2)))':
     dependencies:
