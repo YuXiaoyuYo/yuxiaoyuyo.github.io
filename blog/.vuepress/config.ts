@@ -11,7 +11,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   head: [
-    ['link', {rel: 'shortcut icon', href: '/images/favicon.webp'}]
+    ['link', {rel: 'shortcut icon', href: 'https://yu.nm.cn/images/favicon.webp'}]
   ],
 
   theme: plumeTheme({
@@ -35,7 +35,7 @@ export default defineUserConfig({
 
     contributors: {
       mode: 'block',
-      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: '/images/favicon.webp',}],
+      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: 'https://yu.nm.cn/images/favicon.webp',}],
     },
 
     replaceAssets: 'https://yu.nm.cn',
