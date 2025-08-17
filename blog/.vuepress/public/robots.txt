@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: /api/
-Disallow: /article/2hp1xz2c/
 
 Sitemap: https://yuxiaoyu.me/sitemap.xml

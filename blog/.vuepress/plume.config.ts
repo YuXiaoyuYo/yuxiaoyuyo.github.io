@@ -16,7 +16,7 @@ export default defineThemeConfig({
   contributorsText: '作者',
 
   profile: {
-    avatar: '/images/avatar.webp',
+    avatar: 'https://yu.nm.cn/images/avatar.webp',
     name: '于晓鱼',
     // description: '',
     circle: true,
@@ -38,7 +38,7 @@ export default defineThemeConfig({
   footer: {
     message: '',
     // message: 'Articles are licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
-    copyright: `© ${new Date().getFullYear()} Yu Xiaoyu`,
+    copyright: `© ${new Date().getFullYear()} Yu Akatsuki`,
   },
 
   notFound: {
