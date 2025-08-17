@@ -38,6 +38,8 @@ export default defineUserConfig({
       info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: '/images/favicon.webp',}],
     },
 
+    replaceAssets: 'https://yu.nm.cn',
+
     plugins: {
 
       git: true,
