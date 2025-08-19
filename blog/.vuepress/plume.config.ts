@@ -38,7 +38,7 @@ export default defineThemeConfig({
   footer: {
     message: '',
     // message: 'Articles are licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
-    copyright: `© ${new Date().getFullYear()} Yu Akatsuki`,
+    copyright: `© ${new Date().getFullYear()} Yu Xiaoyu`,
   },
 
   notFound: {

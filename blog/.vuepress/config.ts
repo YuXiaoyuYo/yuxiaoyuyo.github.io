@@ -118,7 +118,7 @@ export default defineUserConfig({
       comment: {
         provider: 'Twikoo',
         comment: true,
-        envId: '/api/twikoo',
+        envId: 'https://yu.nm.cn/api/twikoo',
       },
 
       markdownMath: false,
