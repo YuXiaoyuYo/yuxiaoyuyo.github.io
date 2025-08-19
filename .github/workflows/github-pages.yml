@@ -20,9 +20,6 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -33,7 +30,7 @@ jobs:
         run: |
           mkdir public
           touch ./public/index.html
-          cat "<a>Hello World!</a>" > ./public/index.html
+          echo "<h1>Hello, world\!</h1>" | cat > ./public/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
