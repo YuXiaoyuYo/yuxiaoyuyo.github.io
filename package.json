@@ -1,6 +1,6 @@
 {
   "name": "yuxiaoyu-blog",
-  "type": "module",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "",
   "packageManager": "pnpm@10.13.1",
