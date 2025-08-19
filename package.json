@@ -28,6 +28,10 @@
     "vuepress-theme-plume": "1.0.0-rc.160"
   },
   "dependencies": {
-    "twikoo": "^1.6.44"
+    "twikoo": "^1.6.44",
+    "get-user-ip": "^1.0.1",
+    "mongodb": "^6.3.0",
+    "twikoo-func": "1.6.44",
+    "uuid": "^8.3.2"
   }
 }
