@@ -1,7 +1,7 @@
 ---
 title: 使用 Github Action 为 Edge One 自动申请ECC + RSA 泛域名证书
 createTime: 2025/08/19 12:16:56
-permalink: /article/acme-gha-ecc-rsa/
+permalink: /articles/acme-gha-ecc-rsa/
 tags:
   - Github Action
   - ACME
@@ -10,8 +10,13 @@ tags:
 ## 前言
 由于网站迁移到了 Edge One 上，不支持直接签发泛域名证书，但是可以同时直接上传==多个==自定义证书（一个ECC、一个RSA、一个国密）。所以就想直接布置一套自动化签发证书的系统，又因为没有 ~~钱~~ 海外的服务器，所以选择 Github Action 来部署证书。
 
-## 多说无益，先上代码
-我的域名托管在 _Cloudflare_ 上，如果你的域名在其他dns可以参考[ACME.SH Wiki](https://github.com/acmesh-official/acme.sh/wiki/dnsapi)
+## 准备工作、
+
+::: tip 提示
+我的域名托管在 _Cloudflare_ 上，如果你的域名在其他 dns 可以参考[ACME.SH Wiki](https://github.com/acmesh-official/acme.sh/wiki/dnsapi) 
+:::
+## Action 代码
+
 ```yml title=".github/workflows/acme.yml"
 name: ACME
 on:

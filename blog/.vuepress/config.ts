@@ -32,9 +32,14 @@ export default defineUserConfig({
     // 添加您的部署域名
     hostname: 'https://yu.nm.cn/',
 
+    docsRepo: 'https://github.com/YuXiaoyuYo/yuxiaoyu-blog',
+    docsDir: 'blog',
+
     copyright: 'CC-BY-NC-SA-4.0',
 
-    changelog: true,
+    changelog: false,
+
+    article: '/articles/',
 
     blog: {
       link: '/',
@@ -48,8 +53,8 @@ export default defineUserConfig({
     },
 
     contributors: {
-      mode: 'block',
-      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu', avatar: 'https://yu.nm.cn/images/favicon.webp',}],
+      mode: 'inline',
+      info:[{username: 'YuXiaoyuYo',name: '于晓鱼', alias: 'YuXiaoyu'}],
     },
 
     replaceAssets: 'https://yu.nm.cn',
