@@ -10,7 +10,7 @@ config:
       dark: 0.3
     hero:
       name: 于晓鱼
-      tagline: 爱是人类最小的共产主义。
+      tagline: 😿
       actions:
         -
           text: 我的博客
@@ -27,7 +27,7 @@ config:
   - type: custom
 createTime: 2024/10/17 13:26:39
 permalink: /about/
-draft: true
+article: false
 ---
 
 <script setup>
