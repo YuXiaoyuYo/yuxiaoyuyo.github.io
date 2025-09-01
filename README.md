@@ -12,13 +12,13 @@ pnpm i
 
 ```sh
 # 启动开发服务
-pnpm docs:dev
+pnpm dev
 # 构建生产包
-pnpm docs:build
+pnpm build
 # 本地预览生产服务
-pnpm docs:preview
+pnpm preview
 # 更新 vuepress 和主题
-pnpm vp-update
+pnpm update
 ```
 
 ## 文档

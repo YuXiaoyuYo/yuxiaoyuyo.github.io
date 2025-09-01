@@ -9,7 +9,7 @@ import { navbar } from './vuepress.navbar'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '于晓鱼的Blog',
+  title: '晓鱼的技术分享站',
   description: '😿',
 
   bundler: viteBundler(),
