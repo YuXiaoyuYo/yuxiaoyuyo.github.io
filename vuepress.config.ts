@@ -110,11 +110,11 @@ export default defineUserConfig({
        * 评论 comments
        * @see https://theme-plume.vuejs.press/guide/features/comments/
        */
-      comment: {
-        provider: 'Twikoo',
-        comment: true,
-        envId: 'https://yu.nm.cn/api/twikoo',
-      },
+      //comment: {
+      //  provider: 'Twikoo',
+      //  comment: true,
+      //  envId: 'https://yu.nm.cn/api/twikoo',
+      //},
 
       search: {
         locales: {
