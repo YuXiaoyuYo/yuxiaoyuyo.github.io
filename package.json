@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "dev-clean": "vuepress dev src --clean-cache --clean-temp",
+    "build": "vuepress build src --clean-cache --clean-temp",
+    "preview": "http-server .vuepress/dist",
+    "update": "pnpm dlx vp-update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-baidu-analytics": "2.0.0-rc.112",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.112",
+    "twikoo": "^1.6.44",
+    "typescript": "^5.9.2",
+    "vue": "^3.5.20",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-plume": "1.0.0-rc.161"
+  }
+}
