@@ -30,20 +30,7 @@ export default defineThemeConfig({
   
   // contributors: false,
 
-  footer: {
-    message: `
-    <span style="justify-content: right; display: flex;">
-      © ${new Date().getFullYear()} Yu Xiaoyu
-    </span>
-    `,
-
-    copyright: `
-    <span style="justify-content: right; display: flex; flex-direction: column; align-items: flex-end;">
-      <!--a style="text-decoration: none; font-size: 12px" target="_blank" href="https://beian.miit.gov.cn/">ICP</a>
-      <a style="text-decoration: none; font-size: 12px" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=">公网安备</a-->
-    </span>
-    `,
-  },
+  footer: {},
 
   notFound: {
     code: '404 Not Found...',
