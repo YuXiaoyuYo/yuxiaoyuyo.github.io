@@ -23,7 +23,7 @@ export default defineUserConfig({
   alias: {
     '@theme/Nav/VPNavBarTitle.vue': path.resolve(
       __dirname,
-      './Layouts/VPNavBarTitle.vue',
+      './layouts/VPNavBarTitle.vue',
     ),
   },
 
