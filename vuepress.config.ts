@@ -10,14 +10,14 @@ import { path } from 'vuepress/utils'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '晓鱼的技术分享站',
+  title: '于晓鱼',
   description: '😿',
 
   bundler: viteBundler(),
 
   head: [
-    ['link', { rel: 'shortcut icon', href: 'https://yu.nm.cn/images/favicon.webp' }],
-    ['script', { type: 'text/javascript', async: '' }, '(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "sw4jkeltox");'],
+    ['link', { rel: 'shortcut icon', href: 'https://yuxiaoyu.me/images/favicon.webp' }],
+    ['script', { type: 'text/javascript', async: '' }, '(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "t7yhxvbftj");'],
   ],
 
   alias: {
@@ -33,20 +33,20 @@ export default defineUserConfig({
     }),
 
     baiduAnalyticsPlugin({
-      id: '6d905db3952e1c80ae931580cff833e7',
+      id: 'de9bd2b34accac39281707b049669815',
     }),
   ],
 
   theme: plumeTheme({
     // 添加您的部署域名
-    hostname: 'https://yu.nm.cn/',
+    hostname: 'https://yuxiaoyu.me/',
 
     appearance: true,
 
     contributorsText: '作者',
 
     profile: {
-      avatar: 'https://yu.nm.cn/images/avatar.webp',
+      avatar: 'https://yuxiaoyu.me/images/avatar.webp',
       name: '于晓鱼',
       // description: '',
       circle: true,
@@ -99,7 +99,7 @@ export default defineUserConfig({
       info: [{ username: 'YuXiaoyuYo', name: '于晓鱼', alias: 'YuXiaoyu' }],
     },
 
-    replaceAssets: 'https://yu.nm.cn',
+    replaceAssets: 'https://yuxiaoyu.me',
 
     plugins: {
 
