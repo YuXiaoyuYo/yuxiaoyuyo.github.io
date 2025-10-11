@@ -16,8 +16,8 @@ const year = new Date().getFullYear()
         <div class="footer-left">
           <a style="text-decoration: none;" class="footer-text" href="https://beian.miit.gov.cn/"
             target="_blank">鲁ICP备2025182726号-2</a>
-          <!--a style="text-decoration: none;" class="footer-text" href="http://www.beian.gov.cn/"
-            target="_blank">京公网安备 xxxxxxx号</a-->
+          <a style="text-decoration: none;" class="footer-text" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37020202370465"
+            target="_blank">鲁公网安备37020202370465号</a>
         </div>
         <p class="footer-text">© {{ year }} Yu Xiaoyu</p>
       </div>
