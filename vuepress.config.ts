@@ -1,53 +1,59 @@
-import { viteBundler } from '@vuepress/bundler-vite'
-import { defineUserConfig } from 'vuepress'
-import { plumeTheme } from 'vuepress-theme-plume'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import { baiduAnalyticsPlugin } from '@vuepress/plugin-baidu-analytics'
-import { navbar } from './vuepress.navbar'
-import { path } from 'vuepress/utils'
-
+import { viteBundler } from "@vuepress/bundler-vite";
+import { defineUserConfig } from "vuepress";
+import { plumeTheme } from "vuepress-theme-plume";
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
+import { baiduAnalyticsPlugin } from "@vuepress/plugin-baidu-analytics";
+import { navbar } from "./vuepress.navbar";
+import { path } from "vuepress/utils";
 
 export default defineUserConfig({
-  base: '/',
-  lang: 'zh-CN',
-  title: '于晓鱼',
-  description: '😿',
+  base: "/",
+  lang: "zh-CN",
+  title: "于晓鱼",
+  description: "😿",
 
   bundler: viteBundler(),
 
   head: [
-    ['link', { rel: 'shortcut icon', href: 'https://yuxiaoyu.me/images/favicon.webp' }],
-    ['script', { type: 'text/javascript', async: '' }, '(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "t7yhxvbftj");'],
+    [
+      "link",
+      { rel: "shortcut icon", href: "https://yuxiaoyu.me/images/favicon.webp" },
+    ],
+    [
+      "script",
+      { type: "text/javascript", async: "" },
+      '(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "t7yhxvbftj");',
+    ],
   ],
 
   alias: {
-    '@theme/Nav/VPNavBarTitle.vue': path.resolve(
+    "@theme/Nav/VPNavBarTitle.vue": path.resolve(
       __dirname,
-      './layouts/VPNavBarTitle.vue',
+      "./layouts/VPNavBarTitle.vue",
     ),
   },
 
   plugins: [
     googleAnalyticsPlugin({
-      id: 'G-93L8M1LEPS',
+      id: "G-93L8M1LEPS",
     }),
 
     baiduAnalyticsPlugin({
-      id: 'de9bd2b34accac39281707b049669815',
+      id: "de9bd2b34accac39281707b049669815",
     }),
   ],
 
   theme: plumeTheme({
     // 添加您的部署域名
-    hostname: 'https://yuxiaoyu.me/',
+    hostname: "https://yuxiaoyu.me/",
 
     appearance: true,
 
-    contributorsText: '作者',
+    contributorsText: "作者",
 
     profile: {
-      avatar: 'https://yuxiaoyu.me/images/avatar.webp',
-      name: '于晓鱼',
+      avatar: "https://yuxiaoyu.me/images/avatar.webp",
+      name: "于晓鱼",
       // description: '',
       circle: true,
       // location: '青岛',
@@ -55,54 +61,51 @@ export default defineUserConfig({
     },
 
     navbar,
-    social: [
-      { icon: 'github', link: 'https://github.com/YuXiaoyuYo/' },
-    ],
+    social: [{ icon: "github", link: "https://github.com/YuXiaoyuYo/" }],
 
-    navbarSocialInclude: ['github'],
+    navbarSocialInclude: ["github"],
 
     footer: {},
 
     notFound: {
-      code: '404 Not Found...',
-      title: '服务器找不到请求的资源',
-      quote: '🤔',
-      linkText: '回到首页',
+      code: "404 Not Found...",
+      title: "服务器找不到请求的资源",
+      quote: "🤔",
+      linkText: "回到首页",
     },
 
-    docsRepo: 'https://github.com/YuXiaoyuYo/yuxiaoyu-blog',
-    docsDir: 'blog',
+    docsRepo: "https://github.com/YuXiaoyuYo/yuxiaoyu-blog",
+    docsDir: "blog",
 
-    copyright: 'CC-BY-NC-SA-4.0',
+    copyright: "CC-BY-NC-SA-4.0",
 
     changelog: false,
 
-    article: '/articles/',
+    article: "/articles/",
 
     markdown: {
       math: false,
     },
 
     blog: {
-      link: '/',
-      tagsLink: '/tags/',
-      archivesLink: '/archives/',
-      categoriesLink: '/categories/',
+      link: "/",
+      tagsLink: "/tags/",
+      archivesLink: "/archives/",
+      categoriesLink: "/categories/",
       postCover: {
-        layout: 'top',
-        ratio: '3:1',
+        layout: "top",
+        ratio: "3:1",
       },
     },
 
     contributors: {
-      mode: 'inline',
-      info: [{ username: 'YuXiaoyuYo', name: '于晓鱼', alias: 'YuXiaoyu' }],
+      mode: "inline",
+      info: [{ username: "YuXiaoyuYo", name: "于晓鱼", alias: "YuXiaoyu" }],
     },
 
-    replaceAssets: 'https://yuxiaoyu.me',
+    replaceAssets: "https://yuxiaoyu.me",
 
     plugins: {
-
       git: true,
 
       markdownImage: {
@@ -118,19 +121,19 @@ export default defineUserConfig({
        * 评论 comments
        * @see https://theme-plume.vuejs.press/guide/features/comments/
        */
-      //comment: {
-      //  provider: 'Twikoo',
-      //  comment: true,
-      //  envId: 'https://yu.nm.cn/api/twikoo',
-      //},
+      comment: {
+        provider: "Twikoo",
+        comment: true,
+        envId: "https://yuxiaoyu.me/api/twikoo",
+      },
 
       search: {
         locales: {
-          '/': {
-            placeholder: '搜索',
+          "/": {
+            placeholder: "搜索",
           },
         },
       },
     },
   }),
-})
+});
