@@ -87,16 +87,21 @@ export default defineUserConfig({
       math: false,
     },
 
-    blog: {
-      link: "/",
-      tagsLink: "/tags/",
-      archivesLink: "/archives/",
-      categoriesLink: "/categories/",
-      postCover: {
-        layout: "top",
-        ratio: "3:1",
+    collections: [
+      {
+        type: "post",
+        dir: "/",
+        title: "于晓鱼",
+        link: "/",
+        tagsLink: "/tags/",
+        archivesLink: "/archives/",
+        categoriesLink: "/categories/",
+        postCover: {
+          layout: "top",
+          ratio: "3:1",
+        },
       },
-    },
+    ],
 
     contributors: {
       mode: "inline",
