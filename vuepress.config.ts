@@ -74,14 +74,12 @@ export default defineUserConfig({
       linkText: "回到首页",
     },
 
-    docsRepo: "https://github.com/YuXiaoyuYo/yuxiaoyu-blog",
-    docsDir: "blog",
+    docsRepo: "https://github.com/YuXiaoyuYo/yuxiaoyuyo.github.io",
+    docsDir: "src",
 
     copyright: "CC-BY-NC-SA-4.0",
 
-    changelog: false,
-
-    article: "/articles/",
+    changelog: true,
 
     markdown: {
       math: false,
@@ -90,10 +88,11 @@ export default defineUserConfig({
     collections: [
       {
         type: "post",
-        dir: "/",
-        title: "于晓鱼",
+        dir: "posts",
+        title: "博客",
         link: "/",
         tagsLink: "/tags/",
+        linkPrefix: "/articles/",
         archivesLink: "/archives/",
         categoriesLink: "/categories/",
         postCover: {
@@ -101,6 +100,13 @@ export default defineUserConfig({
           ratio: "3:1",
         },
       },
+      // {
+      //   type: "doc",
+      //   dir: "docs",
+      //   title: "文档",
+      //   linkPrefix: "docs",
+      //   sidebar: "auto",
+      // },
     ],
 
     contributors: {

@@ -1,17 +1,20 @@
 import { defineClientConfig } from 'vuepress/client'
-// import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
-// import CustomComponent from './theme/components/Custom.vue'
-import Layout from './layouts/Layout.vue'
+import { h } from 'vue'
+import { Layout, NotFound } from 'vuepress-theme-plume/client'
+import NavBarTitleBefore from './layouts/NavBarTitleBefore.vue'
+import FooterContent from './layouts/FooterContent.vue'
 
 import './theme/styles/custom.css'
 import './theme/styles/fonts.css'
 
+const CustomComponent = {
+  "nav-bar-title-before": () => h(NavBarTitleBefore),
+  "footer-content": () => h(FooterContent),
+}
+
 export default defineClientConfig({
-  enhance({ app }) {
-    // app.component('RepoCard', RepoCard)
-    // app.component('CustomComponent', CustomComponent)
-  },
   layouts: {
-    Layout,
+    Layout: () => h(Layout, null, CustomComponent),
+    NotFound: () => h(NotFound, null, CustomComponent),
   },
 })
