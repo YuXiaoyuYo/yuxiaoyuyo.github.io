@@ -3,6 +3,7 @@ import { defineUserConfig } from "vuepress";
 import { plumeTheme } from "vuepress-theme-plume";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { baiduAnalyticsPlugin } from "@vuepress/plugin-baidu-analytics";
+import { clarityAnalyticsPlugin } from "@vuepress/plugin-clarity-analytics";
 import { navbar } from "./vuepress.navbar";
 import { path } from "vuepress/utils";
 
@@ -18,11 +19,6 @@ export default defineUserConfig({
     [
       "link",
       { rel: "shortcut icon", href: "https://yuxiaoyu.me/images/favicon.webp" },
-    ],
-    [
-      "script",
-      { type: "text/javascript", async: "" },
-      '(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "t7yhxvbftj");',
     ],
   ],
 
@@ -40,6 +36,10 @@ export default defineUserConfig({
 
     baiduAnalyticsPlugin({
       id: "de9bd2b34accac39281707b049669815",
+    }),
+
+    clarityAnalyticsPlugin({
+      id: "t7yhxvbftj",
     }),
   ],
 
