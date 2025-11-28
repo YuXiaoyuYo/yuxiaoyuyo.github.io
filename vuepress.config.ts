@@ -20,6 +20,11 @@ export default defineUserConfig({
       "link",
       { rel: "shortcut icon", href: "https://yuxiaoyu.me/images/favicon.webp" },
     ],
+    [
+      "meta",
+      { name: "fediverse:creator", content: "@yuxiaoyu@mastodon.social" },
+    ],
+    ["link", { rel: "me", href: "https://mastodon.social/@yuxiaoyu" }],
   ],
 
   alias: {
