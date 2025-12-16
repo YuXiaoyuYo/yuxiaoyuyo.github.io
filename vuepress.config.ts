@@ -16,10 +16,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   head: [
-    [
-      "link",
-      { rel: "shortcut icon", href: "https://yuxiaoyu.me/images/favicon.webp" },
-    ],
+    ["link", { rel: "shortcut icon", href: "/favicon.webp" }],
     [
       "meta",
       { name: "fediverse:creator", content: "@yuxiaoyu@mastodon.social" },
@@ -33,6 +30,8 @@ export default defineUserConfig({
       "./layouts/VPNavBarTitle.vue",
     ),
   },
+
+  public: path.resolve(__dirname, "./public/"),
 
   plugins: [
     googleAnalyticsPlugin({
@@ -57,7 +56,7 @@ export default defineUserConfig({
     contributorsText: "作者",
 
     profile: {
-      avatar: "https://yuxiaoyu.me/images/avatar.webp",
+      avatar: "/images/avatar.webp",
       name: "于晓鱼",
       // description: '',
       circle: true,
@@ -119,7 +118,7 @@ export default defineUserConfig({
       info: [{ username: "YuXiaoyuYo", name: "于晓鱼", alias: "YuXiaoyu" }],
     },
 
-    replaceAssets: "https://yuxiaoyu.me",
+    // replaceAssets: "https://yuxiaoyu.me",
 
     plugins: {
       git: true,

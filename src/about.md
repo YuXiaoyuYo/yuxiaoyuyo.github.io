@@ -12,16 +12,13 @@ config:
       name: 于晓鱼
       tagline: 😿
       actions:
-        -
-          text: 我的博客
+        - text: 我的博客
           link: /
           theme: brand
-        -
-          text: Github
+        - text: Github
           link: https://github.com/YuXiaoyuYo
           theme: alt
-        -
-          text: Bilibili
+        - text: Bilibili
           link: https://space.bilibili.com/353077925
           theme: alt
   - type: custom
