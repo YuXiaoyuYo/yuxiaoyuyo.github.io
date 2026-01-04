@@ -22,6 +22,7 @@ export default defineUserConfig({
       { name: "fediverse:creator", content: "@yuxiaoyu@mastodon.social" },
     ],
     ["link", { rel: "me", href: "https://mastodon.social/@yuxiaoyu" }],
+    ["link", { rel: "me", href: "https://www.threads.com/@yuxiaoyuxy" }],
   ],
 
   alias: {
