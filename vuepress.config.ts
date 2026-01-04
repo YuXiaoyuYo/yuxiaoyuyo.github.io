@@ -19,7 +19,7 @@ export default defineUserConfig({
     ["link", { rel: "shortcut icon", href: "/favicon.webp" }],
     [
       "meta",
-      { name: "fediverse:creator", content: "@yuxiaoyu@mastodon.social" },
+      { name: "fediverse:creator", content: "@yuxiaoyuxy@threads.net" },
     ],
     ["link", { rel: "me", href: "https://mastodon.social/@yuxiaoyu" }],
     ["link", { rel: "me", href: "https://www.threads.com/@yuxiaoyuxy" }],
