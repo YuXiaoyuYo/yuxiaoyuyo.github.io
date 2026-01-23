@@ -13,14 +13,14 @@ const year = new Date().getFullYear();
             >
                 鲁ICP备2025182726号-2
             </a>
-            <a
+            <!--a
                 style="text-decoration: none"
                 class="footer-text"
                 href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37020202370465"
                 target="_blank"
             >
                 鲁公网安备37020202370465号
-            </a>
+            </a-->
         </div>
         <p class="footer-text">© {{ year }} Yu Xiaoyu</p>
     </div>
