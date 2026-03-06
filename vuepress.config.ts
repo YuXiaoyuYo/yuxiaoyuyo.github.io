@@ -1,9 +1,6 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { plumeTheme } from "vuepress-theme-plume";
-import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
-import { baiduAnalyticsPlugin } from "@vuepress/plugin-baidu-analytics";
-import { clarityAnalyticsPlugin } from "@vuepress/plugin-clarity-analytics";
 import { navbar } from "./vuepress.navbar";
 import { path } from "vuepress/utils";
 
@@ -23,6 +20,7 @@ export default defineUserConfig({
     ],
     ["link", { rel: "me", href: "https://mastodon.social/@yuxiaoyu" }],
     ["link", { rel: "me", href: "https://www.threads.com/@yuxiaoyuxy" }],
+    ["script", { src: "https://bitwarden.yuxiaoyu.me/metrics/" }, "async"],
   ],
 
   alias: {
@@ -33,20 +31,6 @@ export default defineUserConfig({
   },
 
   public: path.resolve(__dirname, "./public/"),
-
-  plugins: [
-    googleAnalyticsPlugin({
-      id: "G-93L8M1LEPS",
-    }),
-
-    baiduAnalyticsPlugin({
-      id: "de9bd2b34accac39281707b049669815",
-    }),
-
-    clarityAnalyticsPlugin({
-      id: "t7yhxvbftj",
-    }),
-  ],
 
   theme: plumeTheme({
     // 添加您的部署域名
