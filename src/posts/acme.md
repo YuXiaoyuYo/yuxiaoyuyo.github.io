@@ -1,7 +1,7 @@
 ---
 title: 使用 Github Action 为 Edge One 自动申请ECC + RSA 泛域名证书
 createTime: 2025/08/19 12:16:56
-permalink: /articles/acme-gha-ecc-rsa/
+permalink: /posts/acme-gha-ecc-rsa/
 tags:
   - Github Action
   - ACME

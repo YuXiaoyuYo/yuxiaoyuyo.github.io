@@ -18,5 +18,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/articles/:id",
+      "destination": "/blog/:id",
+      "statusCode": 301
+    }
   ]
 }

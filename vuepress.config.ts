@@ -81,7 +81,7 @@ export default defineUserConfig({
         title: "博客",
         link: "/",
         tagsLink: "/tags/",
-        linkPrefix: "/articles/",
+        linkPrefix: "/blog/",
         archivesLink: "/archives/",
         categoriesLink: "/categories/",
         postCover: {
