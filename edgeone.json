@@ -21,7 +21,7 @@
   ],
   "redirects": [
     {
-      "source": "/articles/:id",
+      "source": "/articles/:id/",
       "destination": "/blog/:id",
       "statusCode": 301
     }
