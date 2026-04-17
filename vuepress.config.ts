@@ -20,7 +20,7 @@ export default defineUserConfig({
     ],
     ["link", { rel: "me", href: "https://mastodon.social/@yuxiaoyu" }],
     ["link", { rel: "me", href: "https://www.threads.com/@yuxiaoyuxy" }],
-    ["script", { src: "https://bitwarden.yuxiaoyu.me/metrics/" }, "async"],
+    ["script", { src: "/metrics/", "async": "" }],
   ],
 
   alias: {
